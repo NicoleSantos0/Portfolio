@@ -1,0 +1,181 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #fce4ec; /* Rosa clarinho */
+    color: #333;
+}
+
+header {
+    background: linear-gradient(135deg, #f06292, #ff8e9b); /* Gradiente rosa */
+    color: white;
+    padding: 30px 0; /* Aumenta o espaço vertical */
+    text-align: center;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+header h1 {
+    margin-bottom: 15px; /* Espaço abaixo do título */
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 20px; /* Aumenta o espaço entre os itens do menu */
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #f696d4; /* Amarelo ao passar o mouse */
+}
+
+section {
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    text-align: left; /* Alinha o texto à esquerda */
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between; /* Espaça os itens para as extremidades */
+    align-items: center; /* Alinha verticalmente */
+}
+
+h2 {
+    color: #c2185b; /* Rosa mais escuro */
+    margin-bottom: 10px;
+}
+
+.connect-title {
+    color: #c2185b; /* Cor do título "Connect with Me" */
+    margin-left: auto; /* Empurra o título para a direita */
+}
+
+.sobre-container {
+    display: flex;
+    align-items: flex-start; /* Alinha os itens no topo */
+    margin-top: 20px;
+}
+
+.foto-perfil {
+    width: 150px; /* Tamanho da foto */
+    height: 150px; /* Tamanho da foto */
+    border-radius: 10px; /* Deixa a foto com bordas arredondadas */
+    margin-right: 20px; /* Espaço entre a foto e o texto */
+    border: 4px solid #f06292; /* Borda rosa */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Sombra para a foto */
+}
+
+.info-sobre {
+    display: flex;
+    flex-direction: column; /* Alinha os itens verticalmente */
+}
+
+.info-sobre p {
+    margin: 5px 0; /* Espaçamento entre os parágrafos */
+}
+
+.social-media {
+    margin-top: 20px; /* Espaço acima da seção de redes sociais */
+    display: flex;
+    flex-direction: column; /* Alinha os itens verticalmente */
+    align-items: left; /* Alinha o título à direita */
+}
+
+.social-media h3 {
+    margin-bottom: 10px; /* Espaço abaixo do título */
+    text-align: left;
+    justify-content: left;
+}
+
+.social-media ul {
+    list-style: none;
+    padding: 0; /* Remove o padding padrão */
+    display: flex; /* Usa flexbox para a lista */
+    flex-direction: column; /* Alinha os itens verticalmente */
+    align-items: left; /* Alinha os links à direita */
+    justify-content: left;
+    justify-items: left;
+    width: 100%; /* Garante que a lista ocupe toda a largura disponível */
+}
+
+.social-media ul li {
+    margin: 5px 0; /* Espaçamento entre os itens da lista */
+}
+
+.social-media ul li a {
+    text-decoration: none;
+    color: #000000; /* Cor dos links */
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.social-media ul li a:hover {
+    color: #c2185b; /* Cor rosa mais escura ao passar o mouse */
+}
+
+.projeto {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    margin: 10px 0;
+    transition: transform 0.2s, box-shadow 0.2s;
+    background: #f9f9f9; /* Fundo claro para os projetos */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra para os projetos */
+}
+
+.projeto:hover {
+    transform: scale(1.02);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); /* Sombra mais forte ao passar o mouse */
+}
+
+.projeto h3 {
+    margin-bottom: 10px;
+    color: #f06292; /* Rosa mais forte */
+}
+
+.projeto a {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 15px;
+    background: #f06292; /* Rosa mais forte */
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+.projeto a:hover {
+    background: #c2185b; /* Rosa mais escuro ao passar o mouse */
+}
+
+/* Estilos para o rodapé */
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #f06292; /* Rosa claro para o footer */
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    margin-top: 20px;
+}
